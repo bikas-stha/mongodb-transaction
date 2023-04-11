@@ -45,7 +45,7 @@ docker-compose down
 2. Run the following command
 
 - (change port and folder and log file name for all 3 servers)
-- `mongod --port 27003 --dbpath /Users/raktim/Downloads/servers/serverC --logpath /servers/serverC/mongod3.log --replSet rs0 --fork`
+- `mongod --port 27003 --dbpath /servers/serverC --logpath /servers/serverC/mongod3.log --replSet rs0 --fork`
 
 3. Check mongo instance by running this command: `ps -ef | grep mongo`
 
