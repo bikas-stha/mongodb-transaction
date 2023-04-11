@@ -92,7 +92,7 @@ cfg ={
 1. Change the mongoDB connection string in the app.ts file (port and replSet name)
 2. Run code yarn start to start the app.ts
 
-- This is run 3 commands
+- This runs 3 commands
 - 1. Connect to the database
 - 2. Seed the database
 - 3. Execute success transaction / fail transaction
